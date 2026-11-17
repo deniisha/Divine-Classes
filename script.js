@@ -78,3 +78,22 @@ Message: ${message}`;
 
     window.open(url, "_blank");
 });
+
+const galleryImages = document.querySelectorAll(".gallery-item img");
+
+galleryImages.forEach(function(image) {
+    image.addEventListener("click", function() {
+        document.getElementById("previewImage").src = this.src;
+        document.getElementById("imagePreview").style.display = "flex";
+    });
+});
+
+function closePreview() {
+    document.getElementById("imagePreview").style.display = "none";
+}
+
+document.getElementById("imagePreview")?.addEventListener("click", function(event) {
+    if (event.target === this) {
+        closePreview();
+    }
+});
