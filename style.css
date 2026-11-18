@@ -714,3 +714,127 @@ body {
         font-size: 29px;
     }
 }
+```css
+/* CONTACT SECTION */
+
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #f5f7ff;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    color: #263b80;
+    margin-bottom: 12px;
+}
+
+.contact-section > p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.contact-info {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.contact-info h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 18px 0;
+    color: #444;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin: 10px 5px 0 0;
+    background: #263b80;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.social-links a {
+    color: white;
+    padding: 13px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.telegram {
+    background: #229ED9;
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+@media(max-width: 600px) {
+    .contact-info {
+        padding: 20px;
+    }
+
+    .contact-btn {
+        display: block;
+        text-align: center;
+    }
+}
+
+.contact-info {
+    text-align: center;
+    padding: 35px 25px;
+}
+
+.contact-info h3 {
+    color: #263b80;
+    font-size: 27px;
+}
+
+.contact-info p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.contact-buttons {
+    margin-top: 25px;
+}
+
+.contact-subtitle {
+    color: white;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin: 8px;
+}
+
+.social-links {
+    margin-top: 25px;
+}
