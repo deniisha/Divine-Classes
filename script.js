@@ -51,7 +51,7 @@ document.getElementById("enquiryForm")?.addEventListener("submit", function(even
     event.preventDefault();
 
     // Add your WhatsApp number with country code (without +)
-    const whatsappNumber = "918839333464";
+    const whatsappNumber = "919479263894";
 
     const name = document.getElementById("studentName").value;
     const guardian = document.getElementById("guardianName").value;
